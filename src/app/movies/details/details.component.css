@@ -1,0 +1,70 @@
+main .title {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.container-fluid {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.card {
+    background-color: #000;
+    height: 685px;
+    margin-bottom: 40px;
+}
+
+.card .card-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.card .card-body .star {
+    font-size: 18px;
+    color: #9d4edd;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .card-body a {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 18px;
+    border: 1px solid #9d4edd;
+    background-color: #9d4edd;
+    border-radius: 4px;
+    padding: 8px;
+    transition: .5s;
+}
+
+.card .card-body a:hover{
+    background-color: transparent;
+    color: #9d4edd;
+}
+
+.card-body p strong {
+    color: #9d4edd;
+}

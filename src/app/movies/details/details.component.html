@@ -1,0 +1,22 @@
+<app-header></app-header>
+<main>
+    <article class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="{{apiImg + movie.poster_path}}" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">{{movie.title}}</h5>
+                        <p class="material-symbols-outlined star">star_rate <span>{{fixedNumber(movie.vote_average)}}</span></p>
+                        <p class="card-text"><strong>Orçamento:</strong> {{formatCurrency(movie.budget)}}</p>
+                        <p class="card-text"><strong>Receita:</strong> {{formatCurrency(movie.revenue)}}</p>
+                        <p class="card-text"><strong>Duração:</strong> {{movie.runtime}}m</p>
+                        <p class="card-text"><strong>Estreia:</strong> {{movie.release_date}}</p>
+                        <p class="card-text"><strong>Sinopse:</strong> {{movie.overview}}</p>
+                        <a routerLink="/bestmovies" class="details">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>

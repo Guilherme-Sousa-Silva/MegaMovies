@@ -1,0 +1,26 @@
+<app-header (emmitSearch)="getSearch($event)"></app-header>
+<main>
+    <h2 class="title">Buscando por: <strong> {{inputSearch}}</strong></h2>
+    <article class="container">
+        <div class="row">
+            <div class="col-4" *ngFor="let movie of moviesSearched">
+                <div class="card">
+                    <img src="{{apiImg + movie.poster_path}}" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">{{movie.title}}</h5>
+                        <p class="material-symbols-outlined star">star_rate <span>{{fixedNumber(movie.vote_average)}}</span></p>
+                        <!-- <p class="card-text">{{movie.overview}}</p> -->
+                        <a routerLink="/movie/details/{{movie.id}}" class="details">Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+
+<ng-template #loadingFilmes>
+    <div class="loadingFilmes">
+        <p>Carregando...</p>
+    </div>
+</ng-template>
+

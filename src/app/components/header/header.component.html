@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/bestmovies">
+            <span class="material-symbols-outlined">videocam</span>Mega Movies
+        </a>
+        <form class="d-flex form" role="search">
+            <input  #input class="form-control me-2 search" type="search" placeholder="Procure por um filme" aria-label="Search" name="inputSearch" (keyup)="Search(input.value)">
+            <button (click)="searchMovies()" class="btn btn-outline-success btn-search" type="submit"><span class="material-symbols-outlined">search</span></button>
+          </form>
+    </div>
+</nav>

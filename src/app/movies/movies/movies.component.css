@@ -1,0 +1,50 @@
+main .title {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.card {
+    background-color: #111;
+    height: 690px;
+    margin-bottom: 72px;
+}
+
+.card .card-title {
+    font-size: 18px;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.card .card-body .star {
+    font-size: 18px;
+    color: #9d4edd;
+}
+
+.card .card-body a {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 18px;
+    border: 1px solid #9d4edd;
+    background-color: #9d4edd;
+    border-radius: 4px;
+    padding: 8px;
+    transition: .5s;
+}
+
+.card .card-body a:hover{
+    background-color: transparent;
+    color: #9d4edd;
+}

@@ -1,0 +1,25 @@
+*{
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #9d4edd;
+    transition: .5s;
+}
+
+a:hover {
+    color: #7b2cbf;
+}
+
+.container-fluid .navbar-brand {
+    font-size: 32px;
+}

@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #121212;
+}
+
+.navbar .navbar-expand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.form .btn-search {
+    color: #FFF;
+    border: 1px solid #9d4edd;
+    background-color: #9d4edd;
+    display: flex;
+    transition: .5s;
+}
+
+.form .btn-search:hover {
+    background-color: transparent;
+    color: #9d4edd;
+}   
+
+.container-fluid {
+    padding: 0 32px;
+}
+
+.hide {
+    display: none;
+}
+
+.block {
+    display: block;
+}

@@ -1,0 +1,91 @@
+.navbar {
+    background-color: #121212;
+}
+
+.navbar .navbar-expand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.form .btn-search {
+    color: #FFF;
+    border: 1px solid #9d4edd;
+    background-color: #9d4edd;
+    display: flex;
+    transition: .5s;
+}
+
+.form .btn-search:hover {
+    background-color: transparent;
+    color: #9d4edd;
+}   
+
+.container-fluid {
+    padding: 0 32px;
+}
+
+main .title {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.card {
+    background-color: #111;
+    height: 685px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    height: 532px;
+}
+
+.card .card-title {
+    font-size: 18px;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.card .card-body .star {
+    font-size: 18px;
+    color: #9d4edd;
+}
+
+.card .card-body a {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 18px;
+    border: 1px solid #9d4edd;
+    background-color: #9d4edd;
+    border-radius: 4px;
+    padding: 8px;
+    transition: .5s;
+}
+
+.card .card-body a:hover{
+    background-color: transparent;
+    color: #9d4edd;
+}
+
+.title strong {
+    color: #9d4edd;
+}
